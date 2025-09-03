@@ -1,7 +1,5 @@
 import array as ar
 
-
-
 def fun(arr1,arr2,n,m):
     arr1[m:]=arr2
     a1 = arr1.tolist()
@@ -14,4 +12,5 @@ arr2 = ar.array('i',[40,50,60])
 
 n= len(arr2)
 m= len(arr1)-n
+
 fun(arr1,arr2,m,n)
